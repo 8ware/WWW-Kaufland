@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/WWW-Kaufland.t
+lib/WWW/Kaufland.pm
