@@ -1,0 +1,13 @@
+#! /usr/bin/env perl
+
+use strict;
+use warnings;
+
+use WWW::Kaufland;
+
+
+my $STORE_ID = '5840';
+
+my $kaufland = WWW::Kaufland->new($STORE_ID);
+$kaufland->get_offerings(0);
+
