@@ -46,7 +46,7 @@ sub new($$) {
 
 	my $self = {
 		store_id => $store_id,
-		agent => LWP::UserAgent->new(),
+		agent => LWP::UserAgent->new( agent => "Mozilla/5.0" ),
 	};
 
 	return bless $self, $class;
